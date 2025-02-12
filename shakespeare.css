@@ -40,19 +40,19 @@
     
     /* Character Styles */
     .First Witch {
-        color: darkred;
+        color: rgb(234, 15, 15);
     }
     
     .Second Witch {
-        color: rgb(158, 172, 158);
+        color: rgb(68, 146, 235);
     }
     
     .Third Witch {
-        color: darkblue;
+        color: rgb(18, 18, 245);
     }
     
     .ALL {
-        color: purple;
+        color: rgb(226, 12, 226);
     }
     
 
