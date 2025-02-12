@@ -19,6 +19,13 @@
     background-color: #d3d3d3; /* Darker background on hover */
     color: #333; /* Darker text on hover */
 }
+.name:hover {
+    color: #fff; /* White text on hover */
+    text-shadow: 2px 2px 8px #ff6347, 0 0 25px #ff6347, 0 0 5px #ff6347; /* Shadow with color */
+    border: 2px solid #d19f9f; /* Border with interesting color */
+    padding: 5px;
+    cursor: pointer; /* Makes the cursor a pointer on hover */
+}
 
 /* Character Styles */
 .first-witch {
@@ -37,10 +44,4 @@
     color: purple;
 }
 
-/* Speaker Name Styles */
-.name {
-    font-family: "Times New Roman", serif;
-    font-size: 18px;
-    font-weight: bold;
-    color: black;
-}
+
