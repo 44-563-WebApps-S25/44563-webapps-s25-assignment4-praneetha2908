@@ -1,0 +1,46 @@
+/* General Styles */
+.speech {
+    font-family: "Georgia", serif;
+    font-size: 16px;
+    color: black;
+}
+
+.stage-direction {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: #d6b9b9; /* Light background */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Hover effect for stage directions */
+.stage-direction:hover {
+    background-color: #d3d3d3; /* Darker background on hover */
+    color: #333; /* Darker text on hover */
+}
+
+/* Character Styles */
+.first-witch {
+    color: darkred;
+}
+
+.second-witch {
+    color: darkgreen;
+}
+
+.third-witch {
+    color: darkblue;
+}
+
+.all {
+    color: purple;
+}
+
+/* Speaker Name Styles */
+.name {
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
