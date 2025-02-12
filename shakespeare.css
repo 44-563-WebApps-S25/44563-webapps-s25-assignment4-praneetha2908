@@ -1,56 +1,60 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    line-height: 1.6;
-}
- 
-/* speech: Style for character speech */
-.speech {
-    font-family: "Georgia", serif;
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.893);
-    margin-bottom: 10px;
-}
- 
-/* stage-direction: Style for stage directions */
-.stage-direction {
-    font-family: "Courier New", monospace;
-    font-size: 14px;
-    color: black;
-    background-color: #cbd4ca;
-    padding: 5px;
-    font-style: italic;
-}
- 
-/* Hover effect for stage-direction */
-.stage-direction:hover {
-    background-color: #e8e5d7;
-    color: darkred;
-}
- 
-/* Hover effect for character names */
-.name:hover {
-    color: #fff; /* White text on hover */
-    text-shadow: 2px 2px 8px #83cc89, 0 0 25px #a3e0a4, 0 0 5px #9ce0bf; /* Shadow with color */
-    border: 2px solid #d19f9f; /* Border with interesting color */
-    padding: 5px;
-    cursor: pointer; /* Makes the cursor a pointer on hover */
-}
-/* Character Styles */
-.first-witch {
-    color: darkred;
-}
 
-.second-witch {
-    color: rgb(158, 172, 158);
-}
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        line-height: 1.6;
+    }
+    
+    /* speech: Style for character speech */
+    .speech {
+        font-family: "Georgia", serif;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.893);
+        margin-bottom: 10px;
+    }
+    
+    /* stage-direction: Style for stage directions */
+    .stage-direction {
+        font-family: "Courier New", monospace;
+        font-size: 14px;
+        color: black;
+        background-color: #cbd4ca;
+        padding: 5px;
+        font-style: italic;
+    }
+    
+    /* Hover effect for stage-direction */
+    .stage-direction:hover {
+        background-color: #e8e5d7;
+        color: darkred;
+    }
+    
+    /* Hover effect for character names */
+    .name:hover {
+        color: #fff;
+        text-shadow: 2px 2px 8px #83cc89, 0 0 25px #a3e0a4, 0 0 5px #9ce0bf;
+        border: 2px solid #d19f9f;
+        padding: 5px;
+        cursor: pointer;
+    }
+    
+    /* Character Styles */
+    .first-witch {
+        color: darkred;
+    }
+    
+    .second-witch {
+        color: rgb(158, 172, 158);
+    }
+    
+    .third-witch {
+        color: darkblue;
+    }
+    
+    .all {
+        color: purple;
+    }
+    
 
-.third-witch {
-    color: darkblue;
-}
-
-.all {
-    color: purple;
-}
 
 
