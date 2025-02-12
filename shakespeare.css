@@ -39,15 +39,15 @@
     }
     
     /* Character Styles */
-    .First Witch {
+    .First.Witch {
         color: rgb(234, 15, 15);
     }
     
-    .Second Witch {
+    .Second.Witch {
         color: rgb(68, 146, 235);
     }
     
-    .Third Witch {
+    .Third.Witch {
         color: rgb(18, 18, 245);
     }
     
